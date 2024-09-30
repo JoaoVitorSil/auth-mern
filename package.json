@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "set NODE_ENV=development && nodemon back-end/index.js",
     "start": "set NODE_ENV=production && node back-end/index.js",
-    "build": "pnpm install && pnpm install --prefix front-end && pnpm run build --prefix front-end"
+    "build": "npm install && npm install --prefix front-end && npm run build --prefix front-end"
   },
   "keywords": [],
   "author": "",
